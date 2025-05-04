@@ -4,7 +4,7 @@ margin: 0;
 font-family: "Poppins", sans-serif;
 }
 
-.container { overflow: hidden;}
+/* .container { overflow: scroll;} */
 
 a { text-decoration: none;
 color:#252B54 ;}
@@ -75,7 +75,112 @@ font-size: 16px;}
 
 
 /* section 3 */
+.picture { display: flex;
+padding-top: 30px; 
+position: relative;
+flex-wrap: wrap;
+}
 
+.box1 img { width: 40em;
+height: 700px;
+}
+
+.box2 img { width: 35em;
+height: 600px;
+top: 650px;
+}
+
+.box2 p {
+padding-top: 35px;
+top: 64em;
+line-height: 32px;
+font-size: 20px;
+font-weight: 300;
+width: 420px;}
+
+.box2 {
+    display: flex;
+flex-direction: column;
+position: absolute;
+left: 45em;
+top: -110px;
+}
+
+/* sponsors */
+.sponsors {
+      padding: 150px 70px 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+
+p { font-size:22px ;
+    line-height:32px ;
+    font-weight:500 ;
+padding-bottom: 40px; 
+}
+
+    img { 
+    height: 25px;}
+}
+
+.sponsorsimg { display: flex;
+gap : 60px}
+
+
+.Endless {  padding: 70px;
+
+
+    h1 {font-size:80px ;
+        line-height:86px ;
+        font-weight:500 ;
+        width: 800px;
+    }
+
+
+    span { color: #FB9129;}
+}
+
+/* section 4 */
+.sect4 { display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 70px;
+
+
+img { width: 300px;
+height: 600px;}
+
+p { width: 350px;
+    line-height:32px ;
+    font-size:20px ;
+    font-weight:300 ;
+    padding-bottom: 20px;
+}
+
+h1 { line-height:29px ;
+    font-size:24px ;
+    font-weight:600 ;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+a {  padding-bottom: 35px;
+    color: #FB9129;
+    
+}
+
+button { background-color: black;
+color: white;
+padding: 12px 15px;
+border-radius: 10px;}
+}
+
+.Accept {  display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
 
 
 
@@ -91,28 +196,101 @@ font-size: 16px;}
 .btn { display: none;}
 .navbar ul { display: none;}
 
-.navbar { max-width: 100%;
-padding: 10px  5px;}
+.navbar { width: 57em;
+padding: 10px  30px 10px 10px;
+gap: 210px;
+}
+
+
+.logo svg{ width: 30em;
+    height: auto;
+}
+
+.menu img {  width: 100px;height: auto;}
 
 /* hero page */
 
-.hero {padding: 20px;
-    width: 100%;
+.hero {padding: 90px;
+    width: 70em;
 
-    h1 { font-size: 60px;
-        width: 360px;
-        line-height: 70px;
+    h1 { font-size: 100px;
+        width: 600px;
+        line-height: 100px;
     }
    
-    p { font-size: 16px;
-        width: 300px;
+    p { font-size: 50px;
+        line-height: 50px;
+        width: 650px;
+        padding-bottom: 20px;
     }
-
+    .btn1 { margin-top: 20px;
+    width: 62em;
+    display: flex;
+    gap: 30px;
+padding-right: 30px;
+}
 }
 
-.btn1 { margin-top: 20px;}
 
 
+.hero button:nth-child(1) ,.hero button:nth-child(2){ padding: 15px;
+    font-size: 35px;
+}
+
+    
+
+    /* picture */
+    .box1 img { height: auto;}
+
+    .picture {
+gap: 40px;
+/* background-color: #FB9129; */
+width: 62em;
+}
+
+    .box2 { position: static;
+
+img { width: 70em;
+height: auto;}
+}
+
+.box1 img { max-width: 70em;}
+
+.box2 p {
+    padding: 40px 30px;
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: 300;
+    width: 25em;}
+
+
+
+
+
+.sponsorsimg  { flex-wrap: wrap;
+    /* background-color: #252B54; */
+    width: 61em;
+
+    img { width: 150px;
+    height: 150px;}
+
+    }
+
+    .sponsors p {  line-height: 50px;
+        font-size: 40px;
+        font-weight: 300;
+        width:25em ;}
+
+    
+
+
+
+
+    
+
+
+
+/* ********************** */
 }
 
 
