@@ -198,3 +198,68 @@ border-radius: 10px;}
 
     span { color:#35A162 ;}
 }
+
+/* section 5 */
+.sect5 { display: flex;
+    padding: 70px;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+
+
+img { width:  35em;
+height:auto;}
+
+p { font-size:20px ;
+font-weight:300 ;
+line-height: 32px;
+width:387px ;
+padding-bottom: 20px;}
+
+h1 { font-size:24px ;
+font-weight:600 ;
+line-height: 29px;
+padding-bottom: 30px;}
+} 
+
+.invoices { padding-left: 100px;
+padding: 50px;
+
+a { color: #FB9129;}
+
+}
+
+.sect5left {
+
+    span { color: #35A162;}
+}
+
+
+
+.store { padding-bottom: 50px;
+
+
+    button {background-color: black;
+        color: white;
+        padding: 12px 15px;
+        border-radius: 10px;}
+}
+
+/* section 7 */
+.sect7 { padding:70px ;
+   
+
+    p { font-size:80px ;
+        font-weight: 300;
+        line-height:110px ;
+    }
+
+    span { color: #35A162;}
+}
+
+
+
+
+
+
+
